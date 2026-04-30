@@ -23,6 +23,7 @@ See **[HOW_TO_UPDATE.md](./HOW_TO_UPDATE.md)** for the full procedure.
 - **Gibraltar, GRA** (Gambling Bill 2025 management-location trigger; GOSS license; CAF four objectives; RTOS mapping definition)
 - **New Jersey, DGE** (TSB four units; N.J.A.C. 13:69O property-level geolocation; "New Jersey First" 14-day pathway; CSAU)
 - **Pennsylvania, PGCB** (Subpart L; reality checks; statewide self-exclusion; loss limits daily/weekly/monthly)
+- **Sri Lanka, GRA** (Gambling Regulatory Authority Act No. 17 of 2025, certified 3 Sep 2025; first unified regulator; repeals horse-racing / betting-levy / casino-business acts; min age 18 to gamble, 21 to be employed; 30-day windows for change-of-control notification and licence renewal; capital threshold, server-location, geolocation, ISO 27001, live RTP monitoring, responsible-game-design rules, and AML cash-trigger all deferred to Gazette Orders; Sinhala text prevails on inconsistency)
 
 ## Chapters
 
