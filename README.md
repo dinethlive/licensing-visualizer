@@ -1,9 +1,9 @@
-# iGaming Licensing & Technical Standards — Interactive Visualizer
+# iGaming Licensing & Technical Standards, Interactive Visualizer
 
 > A 9-chapter interactive companion to the documentary script
 > **"Technical Standards and Jurisdictional Licensing Frameworks in Global iGaming."**
 > Every claim, threshold, deadline, and named requirement is exposed through a live
-> calculator, simulator, or comparator — and every figure is loaded from a single
+> calculator, simulator, or comparator, and every figure is loaded from a single
 > changelog-first source-of-truth, so regulatory updates land in one place.
 
 <p align="left">
@@ -36,7 +36,7 @@ Deployed automatically from `main` via GitHub Actions → GitHub Pages.
 ## Why changelog-first
 
 Compliance moves fast. This visualizer is built so a regulatory change requires
-**three small edits** — one regulation row, one changelog row, optionally one source row —
+**three small edits** (one regulation row, one changelog row, optionally one source row),
 and propagates everywhere automatically: the home dashboard, the chapter visualizers,
 the live `/changelog` timeline, and the source citations.
 
@@ -58,7 +58,7 @@ See **[HOW_TO_UPDATE.md](./HOW_TO_UPDATE.md)** for the full procedure.
 
 | # | Chapter | Visualizers |
 | --- | --- | --- |
-| 1 | Prologue — *The Invisible Architecture* | five-philosophy comparator |
+| 1 | Prologue, *The Invisible Architecture* | five-philosophy comparator |
 | 2 | Five Regulators | MGA license-type capital filter · Curaçao timeline · Gibraltar trigger comparator · NJ TSB diagram |
 | 3 | Infrastructure | Tier-IV downtime calculator · MGA session-timeout simulator · NJ geolocation boundary |
 | 4 | Fairness Engine | RTOS mapping bias demonstrator · live RTP monitor with deviation alerts |
@@ -97,7 +97,7 @@ and every `<RegulationBadge id="ukgc.min-cycle-seconds" />` on the page bumps to
 - **Tailwind CSS** (dark mode via `class`)
 - **Recharts** for charting
 - **Framer Motion** for animations
-- **No backend** — everything runs in the browser; deployable to any static host
+- **No backend**, everything runs in the browser; deployable to any static host
 
 ## Getting started
 
@@ -138,7 +138,7 @@ src/
 └── components/
     ├── Layout.tsx, Sidebar.tsx, Home.tsx, ChapterShell.tsx
     ├── SourceQuote.tsx           # surfaces the matching script passage
-    ├── RegulationBadge.tsx       # KEY component — pulls from regulations.ts; shows version,
+    ├── RegulationBadge.tsx       # KEY component, pulls from regulations.ts; shows version,
     │                             #   last-verified date, and full change history
     ├── GlossaryDrawer.tsx
     ├── ChangelogPage.tsx         # /changelog
